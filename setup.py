@@ -75,5 +75,5 @@ setup(name='riscvonpynq',
       packages=find_packages(),
       package_data={'':['*.bit', '*.tcl', '*.hwh', '*.S', '*.ld', 'makefile']},
       install_requires=['pynq'],
-      dependency_links=['http://github.com/xilinx/PYNQ.git@v2.1#egg=pynq'],
+      dependency_links=['http://github.com/xilinx/PYNQ.git@v2.4#egg=pynq'],
 )
